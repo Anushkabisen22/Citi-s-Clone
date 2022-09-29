@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(56, 51, 145); */
+}
+.Bar1{
+        padding: 12px;
+        text-align: end;
+        background-color: rgb(46, 39, 39);
+        
+
+}
+.Bar2{
+    display: flex;
+    padding: 15px;
+    text-align: end;
+    background-color: white; 
+    justify-content: space-around;
+    color: aliceblue;
+
+}
+.logo{
+    height: 9%;
+    width: 100%;
+    background-color: rgba(16, 78, 196, 0.84);
+}
+a{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 150%;
+    text-decoration: none;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.box > div{
+    
+    height: 300px;
+    
+}
+.a{
+    background-color: rgba(57, 57, 171, 0.841);
+    width: 50%;
+     /* align-items: center; */
+    color: aliceblue; 
+    display: flex;
+    text-justify: auto;
+    align-items: center;
+    padding-left: 1px;
+}
+.b{
+    background-color:green;
+    color: aliceblue;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+}
+.c{
+    background-color:pink;
+    color: aliceblue;
+    width: 20%;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    height:40%;
+    width: 100%;
+    
+}
+footer{
+      background-color: rgba(57, 57, 171, 0.841);  
+
+}
+.feet{
+    display: flex;
+    justify-content: center;
+}
